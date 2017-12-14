@@ -1,0 +1,5 @@
+zappa==0.45.1
+-r requirements-test.txt
+Flask-SQLAlchemy==2.3.2
+zappa==0.45.1
+-r requirements-test.txt

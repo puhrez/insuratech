@@ -1,0 +1,7 @@
+pandas==0.21.1
+Flask==0.12.2
+Flask-JWT==0.3.2
+psycopg2==2.7.3.2
+cubes==1.1
+alembic==0.9.6
+Flask-SQLAlchemy==2.3.2
