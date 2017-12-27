@@ -5,3 +5,5 @@ psycopg2==2.7.3.2
 cubes==1.1
 alembic==0.9.6
 Flask-SQLAlchemy==2.3.2
+uwsgitop==0.10
+mmh3==2.5.1

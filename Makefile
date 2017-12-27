@@ -14,9 +14,8 @@ setup: ## Install reqs
 
 backend: ## Run the backend service
 	docker-compose build backend
-	docker-compose up -d db
 	docker-compose up -d backend
-	docker-compose run backend alembic upgrade head
+	docker-compose run --rm backend alembic upgrade head
 
 test-setup: ## Setup for tests
 	docker-compose -f docker-compose.test.yml build
@@ -27,4 +26,4 @@ test: test-setup ## Run tests
 clean: ## Clean docker-compose
 	docker-compose stop
 	docker-compose rm
-	docker volume rm insuratech_postgres-data
+	docker volume prune

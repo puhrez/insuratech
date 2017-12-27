@@ -8,7 +8,6 @@ import os
 from datetime import timedelta
 
 ENVIRONMENT = os.environ.get('ENVIRONMENT', 'local')
-SERVER_NAME = f'insuratech_{ENVIRONMENT}'
 DEBUG = True
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
